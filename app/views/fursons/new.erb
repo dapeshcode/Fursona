@@ -1,0 +1,14 @@
+<h2>☯️ Create a Fursona ☪️</h2>
+
+<%= form_for @furson do |form_helper| %>
+    <%= form_helper.label :name%>
+    <%= form_helper.text_field :name%>
+    <br><br>
+    <%= form_helper.label :animal%>
+    <%= form_helper.text_field :animal%>
+    <br><br>
+    <%= form_helper.label :fursonality%>
+    <%= form_helper.text_field :fursonality%>
+    <br><br>
+    <%= form_helper.submit "⚛️ create fursona ⚛️"%>
+    <% end %>
