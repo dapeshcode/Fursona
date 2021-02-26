@@ -1,0 +1,8 @@
+<h1> ☯️ Welcome to Fursona ☪️ </h1>
+
+<h2> Here are all our Fursons.... </h2>
+    <ul>
+        <% @fursons.each do |furson| %>
+            <li><%= link_to furson.name, furson %></li>
+            <% end %>
+    </ul>

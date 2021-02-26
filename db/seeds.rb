@@ -1,7 +1,12 @@
-# This file should contain all the record creation needed to seed the database with its default values.
-# The data can then be loaded with the bin/rails db:seed command (or created alongside the database with db:setup).
-#
-# Examples:
-#
-#   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
-#   Character.create(name: 'Luke', movie: movies.first)
+Furson.destroy_all 
+Furson.reset_pk_sequence
+
+Furson.create(name: "moobaa", animal: "cowsheep", fursonality: "likes to chomp chomp on grass")
+
+Furson.create(name: "wabbit", animal: "angory rabbit", fursonality: "playful, fast, will naw at you for fun")
+
+Furson.create(name: "goat-ye", animal: "fainting goat", fursonality: "frightened easily")
+
+Furson.create(name: "hii-eenah", animal: "maybe a cat? cat/dog?", fursonality: "very chatty")
+
+puts "⚛️⚛️⚛️⚛️⚛️seeded⚛️⚛️⚛️⚛️⚛️⚛️"

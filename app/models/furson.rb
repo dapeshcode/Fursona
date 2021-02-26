@@ -1,0 +1,2 @@
+class Furson < ApplicationRecord
+end
